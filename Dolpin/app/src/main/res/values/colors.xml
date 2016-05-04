@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>                                               <!-- Previously -->
+    <color name="colorPrimary">#00BCD4</color>            <!-- #4DD0E1 -->
+    <color name="colorPrimaryDark">#00ACC1</color>        <!-- #00BCD4 -->
+    <color name="colorAccent">#00ACC1</color>             <!-- #00BCD4 -->
+    <color name="colorFontAccent">#FFFFFF</color>
+    <color name="colorBackground">#00BCD4</color>         <!-- #4DD0E1 -->
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+                                                          <!-- Alpha + Hexadecimal -->
+    <color name="colorOpaque">#99FFFFFF</color>           <!-- #AARRGGBB -->
+</resources>

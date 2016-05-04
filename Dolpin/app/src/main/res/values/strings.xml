@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dolpin</string>
+    <string name="email_request">E-mail:</string>
+    <string name="password_request">Password:</string>
+    <string name="login">Dolp In</string>
+    <string name="sign_up">Dolp Up</string>
+    <string name="name_request">Name</string>
+    <string name="cellphone_request">Cellphone</string>
+    <string name="email_signup">Email</string>
+    <string name="password_signup">Password</string>
+    <string name="confirmPassword_request">Confirm password</string>
+    <string name="plus">+</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email_example">dolpinapp@gmail.com</string>
+    <string name="password_example">**********</string>
+</resources>

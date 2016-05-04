@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_vertical_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="es.esy.dolpin.dolpin.SignupActivity"
+        android:background="@color/colorBackground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/app_name"
+        android:id="@+id/textView4"
+        android:textSize="@dimen/title_size"
+        android:textColor="@color/colorWhite"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:id="@+id/btnSignup"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorAccent"
+        android:textSize="@dimen/default_size"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/txtConfirmPassword"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/txtName"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/name_request"
+        android:textColorHint="@color/colorOpaque"
+        android:textColor="@color/colorFontAccent" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/txtCellphone"
+        android:layout_marginTop="30dp"
+        android:hint="@string/cellphone_request"
+        android:layout_below="@+id/txtName"
+        android:layout_alignLeft="@+id/txtName"
+        android:layout_alignStart="@+id/txtName"
+        android:textColorHint="@color/colorOpaque"
+        android:textColor="@color/colorFontAccent" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/txtEmail"
+        android:layout_below="@+id/txtCellphone"
+        android:layout_alignLeft="@+id/txtCellphone"
+        android:layout_alignStart="@+id/txtCellphone"
+        android:layout_marginTop="30dp"
+        android:hint="@string/email_signup"
+        android:textColorHint="@color/colorOpaque"
+        android:textColor="@color/colorFontAccent" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/txtSenha"
+        android:layout_below="@+id/txtEmail"
+        android:layout_alignLeft="@+id/txtEmail"
+        android:layout_alignStart="@+id/txtEmail"
+        android:layout_marginTop="30dp"
+        android:hint="@string/password_signup"
+        android:textColorHint="@color/colorOpaque"
+        android:textColor="@color/colorFontAccent" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/txtConfirmPassword"
+        android:layout_marginTop="30dp"
+        android:hint="@string/confirm_password"
+        android:textColorHint="@color/colorOpaque"
+        android:textColor="@color/colorFontAccent"
+        android:layout_below="@+id/txtSenha"
+        android:layout_alignLeft="@+id/txtSenha"
+        android:layout_alignStart="@+id/txtSenha" />
+
+</RelativeLayout>
